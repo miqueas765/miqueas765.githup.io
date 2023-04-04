@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+
+}
+
+section#hero{
+   background-color: cornsilk; 
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section#hero h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+section#hero h2{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+section#proyects{
+    background-color: cornsilk;
+    padding: 0;
+}
+section#experience{
+    background-color: cornsilk;
+}
+section#btn{
+    
+     
+   display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: cornsilk;
+    color: blue;
+    text-shadow: 0 1px 0 rgb(255, 255,0,.3);
+    box-shadow: 0 1px 0 rgb(0, 0, 0);
+    
+
+    
+    
+}
+section#button{
+    
+     
+    display: flex;
+     justify-content: center;
+     padding: 30px;
+     background-color: cornsilk;
+     color: blue;
+     text-shadow: 0 1px 0 rgb(255, 255,0,.3);
+     box-shadow: 0 1px 0 rgb(0, 0, 0);
+     
+ 
+     
+     
+ }
+
+
+
+
+
+
+
+.proyects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyects-detail{
+    border: 5px solid;
+    width: 300px;
+    margin: 5px;
+}
+
+.proyects-detail img{
+    width: 100%;
+}
+.proyects-experiencia{
+    border: 5px solid;
+    width: 300px;
+    margin: 5px;
+    color: darkcyan;
+    
+}
+.proyects-experiencia img{
+    width: 100%;
+}
